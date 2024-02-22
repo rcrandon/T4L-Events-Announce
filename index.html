@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color of Wellness Conference - Touch4Life</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <img src=".\assets\Headers\Touch4Life-logo.PNG" alt="Color of Wellness Conference Header" />
+        <nav>
+            <ul>
+                <li><a href="#announcement">Announcement</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#speakers">Speakers</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="announcement" style="text-align: left;">
+            <h1><strong>Color of Wellness Conference</strong></h1>
+            <h3 style="font-size: smaller;">Date & Time</h3>
+            <p>February 29, 2024 | 11am ET - 3pm ET | UMD Riggs Alumni Center, 7801 Alumni Dr., College Park, MD</p>
+            <h3 style="font-size: smaller;">Theme</h3>
+            <p>Conversations to Promote Health, Wellness and Equity | Cancer Awareness</p>
+            <h3 style="font-size: smaller;">Moderator</h3>
+            <p>Adrianna Hopkins</p>
+            <!-- Updated section for Agenda Summary -->
+            <h3 style="font-size: smaller;"><strong></strong></h3>
+            <button id="toggleAgendaSummary" style="text-align: left;">Show Agenda Summary</button>
+            <div id="agendaSummary" style="display: none; text-align: left;">
+                <ul>
+                    <li>1st Segment: Black Genes Matter - Real Talk About Cancer (30 mins)</li>
+                    <li>2nd Segment: When We Trial and For the Love of My Gurls (30 min)</li>
+                    <li>3rd Segment: SafeHER Black Beauty (30 mins)</li>
+                    <li>4th Segment: B-FRESH (Food Restores, Energizes and Sustains Health) (30 mins)</li>
+                    <li>5th Segment: Ask the Doctor (30 mins)</li>
+                </ul>
+            </div>
+        </section>
+        <section id="agenda">
+            <h2><strong>Agenda</strong></h2>
+            <div class="agenda-container">
+                <div class="agenda-item">
+                    <time>11:06 - 11:40</time>
+                    <h3>Black Genes Matter - Real Talk About Cancer</h3>
+                    <p>Speakers: Angela Brade, Kemith Calvin, Laura Crandon, Moniesha Jackson Shorter</p>
+                    <p>Is there a genetic link to health conditions? Panelists share personal stories about their health journeys. Learn about the state of Black health and be inspired to take action to eliminate the generational impact of cancer.</p>
+                </div>
+                <div class="agenda-item">
+                    <time>11:40 - 12:10</time>
+                    <h3>When We Trial and For the Love of My Gurls</h3>
+                    <p>Speakers: Ricki Fairley, Hayley Brown</p>
+                    <p>Discuss myths and facts about clinical trials. Learn why the lack of diversity in clinical trials impacts our quality of life and how we can change that.</p>
+                </div>
+                <div class="agenda-item">
+                    <time>12:46 - 1:16</time>
+                    <h3>SafeHER Black Beauty</h3>
+                    <p>Speaker: Tiah Tomlin Harris</p>
+                    <p>Prioritize your health and learn how to take actionable steps to reduce your risk for breast cancer by identifying and eliminating toxins from your everyday environment and personal care routines.</p>
+                </div>
+                <div class="agenda-item">
+                    <time>1:26 - 1:56</time>
+                    <h3>B-FRESH (Food Restores, Energizes and Sustains Health)</h3>
+                    <p>Speaker: Sharon Hawks</p>
+                    <p>Food and fitness as medicine will be the focus of this segment.</p>
+                </div>
+                <div class="agenda-item">
+                    <time>1:56 - 2:27</time>
+                    <h3>Ask the Doctor</h3>
+                    <p>Speakers: Dr. Jenni Sheng, Dr. Michelle Townsend-Day, Dr. Sheila Rajagopal, Dr. Cathy Handy Marshall</p>
+                    <p>It’s your turn to ask leading medical and scientific experts. Learn about the latest medical advances and what is precision medicine.</p>
+                </div>
+                <div class="agenda-item">
+                    <time>2:27 - 2:57</time>
+                    <h3>Mindfulness and Mental Health</h3>
+                    <p>Speakers: Denise Patterson McKenney, Rozmyn K. Miller</p>
+                    <p>The mind/body connection…how are they intrinsically linked? This workshop will explore mind/body awareness and how to holistically reduce the psychological effects of stress, illness, and some traumatic events.</p>
+                </div>
+            </div>
+        </section>
+        <section id="speakers">
+            <h2><strong>Speakers</strong></h2>
+            <div class="grid">
+                <div class="speaker" data-modal-id="adriannaHopkinsModal">
+                    <h3 style="color:#de60a5">Adrianna Hopkins</h3>
+                    <h4 style="font-size: smaller;color:#50acbd" style="color:#50acbd;">7News DC Morning </p>
+                    <img src=".\assets\Headshots\Hopkins Adrianna.jpg" alt="Adrianna Hopkins" style="flex-wrap:nowrap; margin-left: 15px;" />
+                    <p style="color:black">Hopkins is a morning anchor with 7News DC who has a passion for health equity and issues that affect BIPOC communities. She’s worked closely with The White Dress Project, Morehouse School of Medicine, the Black Women’s Health Imperative, and other organizations to host and moderate events with the goal of bringing awareness and solutions to persistent and systemic inequities. As a result of her own health experiences and her family history, Adrianna has undergone genetic testing and is a staunch believer in advocating for one’s own health.<br><a href="https://www.linkedin.com/in/adriannahopkins" target="_blank">LinkedIn Profile</a><br><br></p>
+                </div>
+                <div class="speaker" data-modal-id="angelaBradeModal">
+                    <h3>Angela Brade</h3>
+                    <h4>Howard County Library System Chief Operating Officer<br>Board Member: Touch4Life</h4>
+                    <img src=".\assets\Headshots\Brade Angela.jpeg" alt="Angela Brade" style="flex-wrap:nowrap; margin-left: 15px;"  />
+                    <p>Angela Brade, a breast cancer victor, serves as a Board Member and Vice President of Touch4Life. She is Chief Operating Officer of the Howard County Library System where she leads multi-million-dollar capital projects and innovative award-winning programs. A strong community advocate, Angela has served as President, University of Maryland Football Parents Association, 2nd Vice President of Jack and Jill of America, Inc. and President of River Hill High School Black Parents Association. She holds a master’s degree in Information Systems from University of Maryland. A mom to three children, she is also a creative playwright, director, and producer.<br><a href="https://www.linkedin.com/in/angela-brade-37415b84/" target="_blank">LinkedIn Profile</a><br><br></p>
+                </div>
+                <div class="speaker" data-modal-id="autumnKBallardModal">
+                    <h3>Autumn K. Ballard</h3>
+                    <h4>University of Maryland Undergrad</h4>
+                    <img src=".\assets\Headshots\Ballard Autumn.jpeg" alt="Autumn K. Ballard"style="flex-wrap:nowrap; margin-left: 15px;" />
+                    <p>Autumn Ballard is a Junior at the University of Maryland, College Park where she is pursuing a degree in Behavioral and Community Health while double minoring in Public Leadership and Anti-Black Racism. After attaining her Master's and Doctoral degrees in Public Health, Autumn intends to improve the quality of healthcare access and affordability in underserved communities via policy efforts. A Prince George’s County, Maryland native, Autumn is active in bettering the lives of the community on and off campus. She currently serves as a Legislative Assistant at the Maryland General Assembly, the President of Alpha Kappa Alpha Sorority, Incorporated, Theta Nu chapter, and the President of the Student Success Leadership Council, a University of Maryland Division of Student Affairs initiative designed to raise the graduation rates of African American students.<br><a href="https://www.linkedin.com/in/autumnkballard25" target="_blank">LinkedIn Profile</a><br><br></p>
+                </div>
+                <div class="speaker" data-modal-id="carmellaDavisWatkinsModal">
+                    <h3>Carmella Davis Watkins</h3>
+                    <h4>Ivy and Pearls of Southern Maryland Community Charities Inc.<br>PRP Executive Director</h4>
+                    <img src=".\assets\Headshots\Watkins Carmella.png" alt="Carmella Davis Watkins" style="flex-wrap:nowrap; margin-left: 15px;"  />
+                    <p>Carmella Davis Watkins has 50 years of continuous, uninterrupted membership in Alpha Kappa Alpha Sorority, Inc. She has served as President of Nu Zeta Omega Chapter and Gamma Gamma Omega Chapter. She is a Charter member of Theta Nu and Nu Zeta Omega Chapter. Carmella retired from the U.S. government after 33 years as a research meteorologist. She is a Professional Registered Parliamentarian and Executive Director of Ivy and Pearls of Southern Maryland Community Charities, Inc.
+                    <br><a href="https://www.linkedin.com/in/carmella-davis-watkins-prp-2b206838/" target="_blank">LinkedIn Profile</a><br><br></p>
+                </div>
+                <div class="speaker" data-modal-id="DenisePattersonMcKenneyModal">
+                    <h3>Denise Patterson McKenney</h3>
+                    <h4>Commissioner & Senior Mediator (Retired)</h4>
+                    <img src=".\assets\Headshots\McKenney Denise Patterson.png" alt="Denise Patterson McKenney" style="flex-wrap:nowrap; margin-left: 15px;" />
+                    <p>Denise Patterson McKenney is a retired Commissioner and Senior Mediator with the Federal Mediation and Conciliation Service, Office of Conflict Management and Prevention. As a collateral duty, Denise served as the Director of Equal Employment Opportunity for 11 years. Denise’s areas of expertise include mediation of collective bargaining agreements between unions/management, workplace employment disputes, training design / delivery, and conflict coaching and systems design. Denise’s publications include “Labor-Management Partnership:  A 12 Step Program for Change” published in the American Bar Association’s Desk Book for ADR Practitioners. Denise brings thirty plus years of mediation experience to the mediation table and has presented workshops domestically and internationally. Denise is a graduate of the University of Maryland, College Park with a Bachelor of Science Degree in Speech Communication. Denise holds a Master of Science Degree in Instructional Systems Technology from the University of the District of Columbia and is a graduate of the Training and Development Program at Georgetown University, Washington, DC.  Denise currently serves as a Board Member of the Federal Dispute Resolution Conference and is an annual presenter. Denise also serves as a member of the U.S. Office of Personnel Management’s Presidential Rank Awards Committee and is a member of Mediators Beyond Borders organization and the International Association of Mediators. In her spare time, Denise enjoys travel, ballroom dancing and performing comedy. Denise believes that learning is a fun, life-long activity.
+                        One of the accomplishments that she holds dearest is being a charter member of the Theta Nu Chapter of Alpha Kappa Alpha Sorority, Incorporated at the University of Maryland, College Park.
+                        <br><a href="https://www.linkedin.com/in/denise-mckenney-b1242873" target="_blank">LinkedIn Profile</a><br><br></p>
+                </div>
+                <div class="speaker" data-modal-id="DrCathyHandyMarshallModal">
+                    <h3>Dr. Cathy Handy Marshall</h3>
+                    <h4>Johns Hopkins School of Medicine Assistant Professor of Oncology</h4>
+                    <img src=".\assets\Headshots\Marshall Cathy Handy.jpg" alt="Dr. Cathy Handy Marshall" style="flex-wrap:nowrap; margin-left: 15px;"  />
+                    <p>Dr. Marshall is a medical oncologist who specializes in the care of men with advanced prostate cancer. 
+                        <br><a href="https://www.linkedin.com/in/cathy-handy-marshall-0205318b" target="_blank">LinkedIn Profile</a><br><br></p>
+                </div>
+                <div class="speaker" data-modal-id="DrJenniShengModal">
+                    <h3>Dr. Jenni Sheng</h3>
+                    <h4>Assistant Professor of Oncology at the Johns Hopkins Sidney Kimmel Comprehensive Cancer Center</h4>
+                    <img src=".\assets\Headshots\Sheng Jenni.jpg" alt="Dr. Jenni Sheng" style="flex-wrap:nowrap; margin-left: 15px;" />
+                    <p>Dr. Jennifer Y. Sheng is an Assistant Professor in the Department of Oncology at the Sidney Kimmel Comprehensive Cancer Center (SKCCC) at the Johns Hopkins University School of Medicine (JHUSOM). As a breast medical oncologist, she focuses on comprehensive survivorship care with emphasis on symptom management, psychosocial aspects of care, and health promotion (diet, exercise and interpersonal relationships).
+
+                        Her prior research includes capturing adverse symptoms of endocrine therapy, identifying scalable tools for early diagnosis of potentially debilitating side effects, understanding health patterns and comorbidities in breast cancer survivors, and exploring strategies to address weight management.  
+                        
+                        Dr. Sheng’s current research focuses on personalizing and adapting weight loss interventions, digitalizing provider and patient education, and enhancing quality of life during and after cancer. To do so, she collaborates with a multidisciplinary team conducting metabolic reprogramming interventions and cardiometabolic strategies at JHUSOM. She is also planning studies to understand and improve body composition in breast cancer survivors, pinpoint clinical and CT derived biomarkers that can predict response to lifestyle interventions, and clarify the underlying obesity gene signatures that may impact cancer outcomes and survivorship. 
+                        
+                        Before joining the Johns Hopkins faculty in July 2019, Dr. Sheng completed her fellowship in medical oncology at the Johns Hopkins University School of Medicine. She received her MD at UMDNJ-New Jersey Medical School in 2013 and completed her undergraduate studies in Biology and Psychology at Rutgers University in 2010. She completed her Internal Medicine training at Temple University Hospitali n 2016, and fellowship training in Medical Oncology at Sidney Kimmel Comprehensive Cancer Center (SKCCC) at Johns Hopkins in 2019.
+                        <br><a href="https://www.linkedin.com/in/jennifer-y-sheng-7a952464" target="_blank">LinkedIn Profile</a><br><br></p>
+                </div>
+                <div class="speaker" data-modal-id="DrMichelleTownsendDayModal">
+                    <h3>Dr. Michelle Townsend Day</h3>
+                    <h4>Chairman Department of Radiology MedStar Good Samaritan & MedStar Union Memorial Hospital<br>Section Chief Breast Imaging MedStar Good Samaritan and MedStar Union Memorial Hospital </h4>
+                    <img src=".\assets\Headshots\Day Michelle Townsend.jpg" alt="Dr. Michelle Townsend Day" style="flex-wrap:nowrap; margin-left: 15px;" />
+                    <p>Dr. Day earned her medical degree from Louisiana State University Health Sciences Center – New Orleans, La in 2001. Dr. Day completed her diagnostic radiology residency training program at Bridgeport Hospital in 2006. Upon completion of residency training, Dr. Day became a fellow at the Memorial Sloan Kettering Cancer Center in New York specializing in breast and body imaging finishing in 2008.
+
+                        Following fellowship, Dr. Day joined the faculty at the University of Connecticut School of Medicine where she was awarded the rank of assistant professor and became the director of breast imaging from 2008-2011. From 2011- 2016, Dr. Day practiced at the University of Maryland where she was a member of the faculty of the University of Maryland School of Medicine at the rank of clinical assistant professor.
+                        
+                        Dr. Day joined MedStar Medical Group Radiology July 1, 2016, as section chief of breast imaging for the MedStar Union Memorial and MedStar Good Samaritan Hospitals. Dr. Day then became chairman of both MedStar Good Samarian and Medstar Union Memorial Hospitals. 
+                        
+                        In her role as section chief of breast imaging, Dr. Day has participated in Breast Health Think Pink House Calls – co sponsored by MedStar Health and WMAR in the month of October since 2017. Dr. Day in partnership with the comprehensive breast center at MedStar Good Samaritan Hospital developed a high-risk screening clinic at MedStar Good Samaritan Hospital in Baltimore to provide a much-needed service to the women in Baltimore city who are disproportionately affected by poor outcomes as it relates to breast cancer diagnoses. Dr. Day was also instrumental in guiding the process whereby the breast imaging center at the MedStar Good Samaritan Hospital is an ACR recognized breast imaging center of excellence. 
+                        <br><a href="https://www.medstarhealth.org/locations/medstar-good-samaritan-hospital/leadership-and-board-of-directors/townsdend-day_michelle-md" target="_blank">MedStar Profile</a><br><br></p>
+                </div>
+                <div class="speaker" data-modal-id="HayleyBrownModal">
+                    <h3>Hayley Brown</h3>
+                    <h4>Director of Partnerships and Programs<br>Member: Black Breast Cancer Alliance<br>Member: TOUCH</h4>
+                    <img src=".\assets\Headshots\Brown Hayley.png" alt="Hayley Brown" style="flex-wrap:nowrap; margin-left: 15px;"  />
+                    <p>Hayley Brown serves as the Director of Programs and Partnerships for TOUCH, The Black Breast Cancer Alliance. TOUCH is a non-profit organization focusing on eradicating Black Breast Cancer
+                        Hayley’s goal is to bring the TOUCH programming to where all black women live, work, play, pray, and slay through local community outreach and national events. She is currently focused on reaching young black women and defining Black Breast Health. In combination with her teaching background and her passion for supporting breasties at all parts of their journey, Hayley plans to continue to educate, empower, and equip this amazing community to be the CEO’s of their own health.
+                        <br><a href=https://www.linkedin.com/in/hayley-brown-0330a4b9" target="_blank">LinkedIn Link</a><br><br></p>
+                </div>
+                <div class="speaker" data-modal-id="KemithCalvinModal">
+                    <h3>Kemith Calvin</h3>
+                    <h4>Prince George's County School System Administrator</h4>
+                    <img src=".\assets\Headshots\Kemith _KC_ Calvin Headshot.jpg" alt="Kemith Calvin" style="flex-wrap:nowrap; margin-left: 15px;"  />
+                    <p>Kemith "KC" Calvin was born in Arkansas City, Ark. He graduated from University of Arkansas at Pine Bluff with BS Degree in Business Administration having earned a 3-year ROTC scholarship. 
+
+                        KC graduated from the United States Army Officers Military Intelligence Academy in Fort Huachuaca, Arizona and subsequently served 4 years in U.S. Army in Fort Hood, Texas and West Germany. KC worked as a configuration and logistics engineer at Westinghouse, a defense contractor in Annapolis, MD before lending his expertise as an education.
+                        
+                        His extensive career in education and administration began by teaching elementary school for three years in Baltimore, MD before transitioning to become an elementary school Guidance Counselor in the Prince George’s County School System.  His advancing career led him serve in leadership as a Middle School Assistant Principal and Principal as well as a High School Administrator for 15 years.
+                        
+                        KC earned a Masters in Guidance Counseling from Bowie St University.  
+                        
+                        He joined Omega Psi Phi Fraternity, Inc.,  in college. He has held many positions within the Fraternity and is currently assigned by the Grand Basileus to serve as international Retention Chairman.
+                        <br><a href="https://www.linkedin.com/in/kenneth-calvin-a408a6b3" target="_blank">LinkedIn Profile</a><br><br></p>
+                </div>
+                <div class="speaker" data-modal-id="lauraCrandonModal">
+                    <h3>Laura Crandon</h3>
+                    <h4>Founder: Touch4Life<br>MBA & CA-A</h4>
+                    <img src=".\assets\Headshots\Crandon Laura.jpg" alt="Laura Crandon" style="flex-wrap:nowrap; margin-left: 15px;"  />
+                    <p>Laura Crandon is a strategist and innovator. A former healthcare and technology executive for over 25 years, leading billion-dollar portfolios, Laura founded Touch4Life, a 501(c)(3) nonprofit organization whose mission is to increase the breast health IQ of BIPOC and underserved communities and eliminate breast cancer outcomes disparities. Out of her own journey with metastatic breast cancer, Laura turned pain into purpose. She recognized the lack of health equity in breast cancer detection, treatment and survivorship that exists for Black and Brown women in the United States. Laura counsels, teaches, and inspires women who have been diagnosed with breast cancer and works with physicians and nurses to provide culturally relevant educational materials. She advocates for health equity and inclusion in clinical research, biomarkers and genetic testing, and patient empowerment. 
+
+                        She has been an entrepreneur, venture capitalist and served as a board member on Duke University’s Healthcare Alumni Advisory Board, Johnson C. Smith Theological Seminary, and Pearl Foundation. 
+                        
+                        The daughter of two path-breaking civil rights sojourners, Laura earned and a BS in Computer Science from University of Maryland College Park and an MBA from Duke University Fuqua School of Business. 
+                        
+                      <br><a href="www.linkedin.com/in/laura-crandon" target="_blank">LinkedIn Profile</a><br><br></p>
+                </div>
+                <div class="speaker" data-modal-id="monieshaJacksonShorterModal">
+                    <h3>Moniesha Jackson Shorter</h3>
+                    <h4>Board Member: Touch4Life </h4>
+                    <img src=".\assets\Headshots\Shorter Moniesha Jackson.jpeg" alt="Moniesha Jackson Shorter" style="flex-wrap:nowrap; margin-left: 15px;"  />
+                    <p>As a longtime DEI advocate, Moniesha Jackson Shorter has devoted much of her career to amplifying diverse voices and eliminating barriers that prevent full participation of minority professionals. 
+
+                        During her 13.5 year tenure at Accenture, she served as the Diversity Recruiting lead for the University of Maryland and developed programming for the Skills to Succeed initiative, the focus of Accenture’s Corporate Citizenship efforts, aimed to equip at least 250,000 people around the world with the skills required to get jobs, build businesses and improve their communities. I also served on the University of Maryland Women in Engineering Board in this capacity, focused on the recruitment and retention of female engineering students.
+                        
+                        Later at Amazon, she was selected to lead the local chapter for Kaleidoscope, a DEI initiative in Amazon Device Software and Services focused on hiring and development, culture, and community, and also served as Director, Marketing and Communications, for the Amazon Black Employee Network (BEN) Board.
+                        
+                        It’s Moniesha’s passion tao see minorities achieve and Black women thrive that led her to establish the Moniesha Jackson Shorter Endowed Scholarship for the Center for Minorities in Science and Engineering and the Moniesha Jackson Shorter Endowed Scholarship for Alpha Kappa Alpha Sorority, Inc.® through the University of Maryland College Park Foundation, Inc. 
+                        
+                        Moniesha brings a solid track record for executing successful branding campaigns, promoting product launches, as well as increasing customer engagement using interactive technology. She is skilled at interacting with engineering, development, marketing and sales teams from proof of concept to service introduction, including market and technology research, as well as competitive analysis to drive product promotion and technology enablement strategies. She also has extensive experience leading large scale business transformations and working with leadership teams to uncover insights about their internal business environment, capacity to change, and the capabilities required to realize the intended business strategy. 
+                        
+                        Realizing her talent for promoting brands that lead to increased market presence, brand awareness and expansion, she launched a startup called Cornerstone Creative Group, LLC. Cornerstone Creative Group specializes in providing engaging digital experiences through design, content management, brand strategy, marketing and technology innovation. Moniesha brings a solid track record for executing successful branding campaigns, promoting product launches, as well as increasing customer engagement using interactive technology.
+                        <br><a href="linkedin.com/in/moniesha-shorter-2a8b82" target="_blank">LinkedIn Profile</a><br><br></p>
+                </div>
+                <div class="speaker" data-modal-id="rickiFairleyModal">
+                    <h3>Ricki Fairley</h3>
+                    <h4>CEO & Co-Founder of TOUCH<br>Member: Black Breast Cancer Alliance</h4>
+                    <img src=".\assets\Headshots\Fairley Ricki.jpg" alt="Ricki Fairley" style="flex-wrap:nowrap; margin-left: 15px;"  />
+                    <p>Ricki Fairley is the co-founder and CEO of TOUCH, The Black Breast Cancer Alliance
+                        addressing Black Breast Cancer as a unique and special disease state, with the overall goal of reducing the mortality rate for Black women.
+                        
+                        Ricki founded and serves as co-host for “The Doctor Is In,” a weekly live breast cancer advocacy web series on the BlackDoctor.org Facebook page that reaches over 3 million viewers.
+                        
+                        She is a founding member of #BlackDataMatters, in partnership with Ciitizen, The Center for Health Care Innovation and Morehouse School of Medicine to encourage and elevate the
+                        importance of Black Women participating in clinical trial research.
+                        
+                        In January 2022, she started the When We Tri(al) Movement to change the game on Black women participating in clinical trials to improve outcomes for Black women with breast cancer with culturally humble and provocative communication that has resulted in thousands of Black women entering clinical trial research. She also actively assists pharmaceutical companies in revamping and designing their clinical trial recruiting materials.
+                        
+                        Ricki holds a BA from Dartmouth College and an MBA from Kellogg School of Management at Northwestern University. She is the President Emeritus of the Black Alumni of Dartmouth Association and is Board Chair Emeritus of Kenny Leon’s True Colors Theatre Company.
+                        
+                        Ricki has two daughters and three granddaughters that are her pride and joy. Amanda Brown, Dartmouth Class of 2007, and Hayley Brown, Dartmouth Class of 2014. Belle, Leia, and Hart motivate her to live her purpose to eradicate breast cancer every day.
+                        <br><a href="https://www.linkedin.com/in/ricki-fairley-561a43?trk=public_post_feed-actor-name" target="_blank">LinkedIn Profile</a><br><br></p>
+                </div>
+                <div class="speaker" data-modal-id="rozmynKMillerModal">
+                    <h3>Rozmyn K. Miller</h3>
+                    <h4>Conflict Management Consultant</h4>
+                    <img src=".\assets\Headshots\Miller Rozmyn.jpeg" alt="Rozmyn K. Miller" style="flex-wrap:nowrap; margin-left: 15px;"  />
+                    <p>Rozmyn K. Miller is a conflict management consultant, trainer and coach who specializes in combining conflict resolution techniques with mindfulness practices. With over 15 years in the field, Rozmyn has cultivated a unique perspective to help others foster harmony and understanding in even the most contentious environments.
+                        As a practitioner, Rozmyn’s approach is rooted in the belief that true resolution can only be achieved when individuals are attuned to their own emotions and intentions. Whether mediating workplace disputes, facilitating team dialogues, or coaching individuals in conflict resolution, Rozmyn empowers her clients to cultivate mindfulness as a tool for navigating
+                        challenging interactions with clarity and equanimity.
+                        Driven by her vision of a world where conflicts are opportunities for growth and
+                        connection, Rozmyn continues to push the boundaries of traditional conflict management, weaving mindfulness into the fabric of her professional endeavors and leaving a lasting impact on those she serves.
+                        <br>Rozmyn also has a Master of Science in Negotiation and Conflict Management from
+                        University of Baltimore and a Bachelor of Arts in Political Science from Hampton
+                        University.<br><a href="https://www.linkedin.com/in/rozmyn-miller-8a911010" target="_blank">LinkedIn Profile</a><br><br></p>
+                </div>
+                <div class="speaker" data-modal-id="sharonHawksModal">
+                    <h3>Sharon Hawks</h3>
+                    <h4>Registered Dietitian-Nutritionist & Certified Diabetes Care and Education Specialist<br>MS RDN LDN CDCES</h4>
+                    <img src=".\assets\Headshots\Hawks Sharon.jpg" alt="Sharon Hawks" style="flex-wrap:nowrap; margin-left: 15px;"  />
+                    <p>Mrs. Hawks is the owner and director of the Nutrition and Diabetes Education Center, in Glenn Dale, Maryland. She is a registered dietitian/nutritionist, and one of the 19,000 elite Certified Diabetes Care and Education Specialist in the U.S. Mrs. Hawks received her bachelor’s degree from Michigan State University and her master’s from Central Michigan University in the field of dietetics. She has obtained additional certifications in the areas of physical fitness and health coaching. Mrs. Hawks has over 25 years’ experience and has been listed in the national directory, “Who’s Who in Diabetes Treatment, Education & Research.” As a nutritionist, educator, and motivator, she is a popular and highly sought-after speaker and consultant, both locally and nationally. Health professionals, businesses, churches, and the public are enthusiastic about her engaging, energetic, clear and practical delivery of diabetes, nutrition and health related topics. She has appeared on numerous TV, radio, and podcast presentations over the years.  Mrs. Hawks is proud to have served our country and is a retired Air Force Major. On a national level, she serves on the board of the prestigious Black Women’s Health Imperative, one of the oldest organizations whose primary focus is on the health and wellness of black women and girls throughout the nation. On a personal level, Mrs. Hawks lends her expertise as the Health Commissioner at Reid Temple, one of the largest African Methodist Episcopal congregations in the nation.  Mrs. Hawks believes in practicing what she preaches. She takes pride in keeping her mind, body, and spirit in balance. Her Motto is: “Your health is your greatest wealth and without it, everything you cherish can be compromised!” Her mission is to give others the tools they need to invest in this precious commodity we call health.
+                        <br><a href="https://www.linkedin.com/in/sharon-hawks-ms-rdn-ldn-cdces-166b5928" target="_blank">LinkedIn Profile</a><br><br></p>
+                </div>
+                <div class="speaker" data-modal-id="tiahTomlinHarrisModal">
+                    <h3>Tiah Tomlin-Harris</h3>
+                    <h4>CEO & Founder of My Style Matters</h4>
+                    <img src=".\assets\Headshots\Tomlin-Harris Tiah.jpg" alt="Tiah Tomlin-Harris" style="flex-wrap:nowrap; margin-left: 15px;"  />
+                    <p>Following a diagnosis of an aggressive form of breast cancer, or Can’t-cer as she calls it, Tiah Tomlin-Harris vowed to God that if she made it through breast cancer, she would help as many women as she could fight and survive breast cancer, particularly Black women, who are disproportionately impacted by this disease.   
+
+                        Tiah believed that no sister should walk this journey alone and founded the My Breast Years Ahead Sisterhood, a sisterhood of women survivors. She also founded My Style Matters, Inc., a 501c3 non-profit organization that focuses on improving health outcomes and overall well-being by providing support, resources, education as well as healthy lifestyle experiences to cancer survivors and their loved ones.  
+                        
+                        In 2019, upon obtaining news of a recurrence, Tiah opted to fight cancer a second time with food and faith. She adopted a whole food plant-based diet, removed products containing toxins or other dangerous chemicals from her home, and added other complementary practices to her daily routine. Tiah believes that making healthy lifestyle changes can help improve one’s quality of life and help with better life outcomes. She is now helping others on their quest for optimal health as a licensed Food for Life Instructor and is educating individuals on ways to eliminate harmful exposures.  
+                        
+                        Tiah is an activist, an advocate, a Cancer Coach, a Breast Health Educator, a consultant, and a Project Lead graduate of the National Breast Cancer Coalition (NBCC). She developed Breast Health Matters, an empowerment and educational platform for teen girls and women, and serves as the Program Manager for the Knowledge Is Power symposium focusing on Black women diagnosed with breast cancer. Tiah has advocated for survivors on Capitol Hill; is a Community Advisory Board member with the Bench to Community Initiative and the Non-toxic Black Beauty Project; serves as a board member and advisory board member for several pharmaceutical companies and organizations; published a research paper on Clinical Trials in Metastatic Breast Cancer; has spoken on numerous talk shows and panels to include Tavis Smiley talk radio, American Society for Clinical Oncology (ASCO), American Association for Cancer Research (AACR) and the Congressional Briefing with Breast Cancer Prevention Partners (BCPP). Through her life's work, she has received recognition and awards, including President Bush’s – Point of Lights Award and the Georgia Center for Oncology Research and Education (GA CORE) Phillip Street Community Service Award. 
+                        
+                        Tiah is bringing H.O.P.E. to our community by educating, motivating, and activating people to move from awareness to taking action. 
+                        <br><a href="https://www.linkedin.com/in/tiah-tomlin#" target="_blank">LinkedIn Profile</a><br><br></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div style="text-align:center;">
+            <a href="https://www.touch4life.org/contact/"><img src=".\assets\Headers\Touch4Life-logo.PNG" alt="Touch4Life Logo" style="width:20%;"></a>
+            <p>&copy; 2023 Touch4Life's Color of Wellness Conference</p>
+        </div>
+    </footer>
+<script>
+    document.getElementById('toggleAgendaSummary').addEventListener('click', function() {
+        var agendaSummary = document.getElementById('agendaSummary');
+        if (agendaSummary.style.display === 'none') {
+            agendaSummary.style.display = 'block';
+            this.textContent = 'Hide Agenda Summary';
+        } else {
+            agendaSummary.style.display = 'none';
+            this.textContent = 'Show Agenda Summary';
+        }
+    });
+</script>
+<div id="adriannaHopkinsModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('adriannaHopkinsModal')">&times;</span>
+        <img src=".\assets\Headshots\hopkins adrianna.jpg" alt="Adrianna Hopkins" />
+        <p>Adrianna Hopkins is a morning anchor with 7News DC who has a passion for health equity and issues that affect BIPOC communities. She’s worked closely with The White Dress Project, Morehouse School of Medicine, the Black Women’s Health Imperative, and other organizations to host and moderate events with the goal of bringing awareness and solutions to persistent and systemic inequities. As a result of her own health experiences and her family history, Adrianna has undergone genetic testing and is a staunch believer in advocating for one’s own health.</p>
+        <p>Adrianna’s journalism career began at the University of North Carolina at Chapel Hill. She’s now a morning anchor in Washington, DC and journalism professor at Florida International University in D.C. Her career journey includes working in New Orleans, LA, Miami, FL, and Louisville, KY.</p>
+        <p>She and her husband are parents of two young children. You can watch Adrianna on 7News DC (the ABC affiliate) from 4:30 to 7 AM Monday through Friday.</p>
+    </div>
+</div>
+<div id="angelaBradeModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('angelaBradeModal')">&times;</span>
+        <img src=".\assets\Headshots\angela_brade.jpg" alt="Angela Brade" />
+        <p>Angela Brade<br>Chief Operating Officer, Howard County Library System<br>Board Member, Touch4Life<br><br>https://www.linkedin.com/in/angela-brade-37415b84/<br>Angela Brade, a breast cancer victor, serves as a Board Member and Vice President of Touch4Life. She is Chief Operating Officer of the Howard County Library System where she leads multi-million-dollar capital projects and innovative award-winning programs. A strong community advocate, Angela has served as President, University of Maryland Football Parents Association, 2nd Vice President of Jack and Jill of America, Inc. and President of River Hill High School Black Parents Association. She holds a master’s degree in Information Systems from University of Maryland. A mom to three children, she is also a creative playwright, director, and producer.</p>
+    </div>
+</div>
+<div id="autumnKBallardModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('autumnKBallardModal')">&times;</span>
+        <img src=".\assets\Headshots\autumn_k_ballard.jpg" alt="Autumn K. Ballard" />
+        <p>Autumn Ballard is a Junior at the University of Maryland, College Park where she is pursuing a degree in Behavioral and Community Health while double minoring in Public Leadership and Anti-Black Racism. After attaining her Master's and Doctoral degrees in Public Health, Autumn intends to improve the quality of healthcare access and affordability in underserved communities via policy efforts. A Prince George’s County, Maryland native, Autumn is active in bettering the lives of the community on and off campus. She currently serves as a Legislative Assistant at the Maryland General Assembly, the President of Alpha Kappa Alpha Sorority, Incorporated, Theta Nu chapter, and the President of the Student Success Leadership Council, a University of Maryland Division of Student Affairs initiative designed to raise the graduation rates of African American students.</p>
+    </div>
+</div>
+<div id="carmellaDavisWatkinsModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('carmellaDavisWatkinsModal')">&times;</span>
+        <img src=".\assets\Headshots\carmella_davis_watkins.jpg" alt="Carmella Davis Watkins" />
+        <p>Carmella Davis Watkins, PRP<br>Executive Director, Ivy and Pearls of Southern Maryland Community Charities, Inc.<br><br>Carmella Davis Watkins has 50 years of continuous, uninterrupted membership in Alpha Kappa Alpha Sorority, Inc. She has served as President of Nu Zeta Omega Chapter and Gamma Gamma Omega Chapter. She is a Charter member of Theta Nu and Nu Zeta Omega Chapter.<br><br>Carmella retired from the U.S. government after 33 years as a research meteorologist. She is a Professional Registered Parliamentarian and Executive Director of Ivy and Pearls of Southern Maryland Community Charities, Inc.</p>
+    </div>
+</div>
+<div id="denisePattersonMcKenneyModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('denisePattersonMcKenneyModal')">&times;</span>
+        <img src=".\assets\Headshots\denise_patterson_mckenney.jpg" alt="Denise Patterson McKenney" />
+        <p>Denise Patterson McKenney is a retired Commissioner and Senior Mediator with the Federal Mediation and Conciliation Service, Office of Conflict Management and Prevention. As a collateral duty, Denise served as the Director of Equal Employment Opportunity for 11 years. Denise’s areas of expertise include mediation of collective bargaining agreements between unions/management, workplace employment disputes, training design / delivery, and conflict coaching and systems design. Denise’s publications include “Labor-Management Partnership:  A 12 Step Program for Change” published in the American Bar Association’s Desk Book for ADR Practitioners. Denise brings thirty plus years of mediation experience to the mediation table and has presented workshops domestically and internationally. Denise is a graduate of the University of Maryland, College Park with a Bachelor of Science Degree in Speech Communication. Denise holds a Master of Science Degree in Instructional Systems Technology from the University of the District of Columbia and is a graduate of the Training and Development Program at Georgetown University, Washington, DC.  Denise currently serves as a Board Member of the Federal Dispute Resolution Conference and is an annual presenter. Denise also serves as a member of the U.S. Office of Personnel Management’s Presidential Rank Awards Committee and is a member of Mediators Beyond Borders organization and the International Association of Mediators. In her spare time, Denise enjoys travel, ballroom dancing and performing comedy. Denise believes that learning is a fun, life-long activity.</p>
+        <p>One of the accomplishments that she holds dearest is being a charter member of the Theta Nu Chapter of Alpha Kappa Alpha Sorority, Incorporated at the University of Maryland, College Park.</p>
+    </div>
+</div>
+<div id="drCathyHandyMarshallModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('drCathyHandyMarshallModal')">&times;</span>
+        <img src=".\assets\Headshots\dr_cathy_handy_marshall.jpg" alt="Dr. Cathy Handy Marshall" />
+        <p>Dr. Marshall is a medical oncologist who specializes in the care of men with advanced prostate cancer.</p>
+    </div>
+</div>
+<div id="drJenniShengModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('drJenniShengModal')">&times;</span>
+        <img src=".\assets\Headshots\dr_jenni_sheng.jpg" alt="Dr. Jenni Sheng" />
+        <p>Dr. Jennifer Y. Sheng is an Assistant Professor in the Department of Oncology at the Sidney Kimmel Comprehensive Cancer Center (SKCCC) at the Johns Hopkins University School of Medicine (JHUSOM). As a breast medical oncologist, she focuses on comprehensive survivorship care with emphasis on symptom management, psychosocial aspects of care, and health promotion (diet, exercise and interpersonal relationships).</p>
+        <p>Her prior research includes capturing adverse symptoms of endocrine therapy, identifying scalable tools for early diagnosis of potentially debilitating side effects, understanding health patterns and comorbidities in breast cancer survivors, and exploring strategies to address weight management.</p>
+        <p>Dr. Sheng’s current research focuses on personalizing and adapting weight loss interventions, digitalizing provider and patient education, and enhancing quality of life during and after cancer. To do so, she collaborates with a multidisciplinary team conducting metabolic reprogramming interventions and cardiometabolic strategies at JHUSOM. She is also planning studies to understand and improve body composition in breast cancer survivors, pinpoint clinical and CT derived biomarkers that can predict response to lifestyle interventions, and clarify the underlying obesity gene signatures that may impact cancer outcomes and survivorship.</p>
+        <p>Before joining the Johns Hopkins faculty in July 2019, Dr. Sheng completed her fellowship in medical oncology at the Johns Hopkins University School of Medicine. She received her MD at UMDNJ-New Jersey Medical School in 2013 and completed her undergraduate studies in Biology and Psychology at Rutgers University in 2010. She completed her Internal Medicine training at Temple University Hospital in 2016, and fellowship training in Medical Oncology at Sidney Kimmel Comprehensive Cancer Center (SKCCC) at Johns Hopkins in 2019.</p>
+    </div>
+</div>
+<div id="drMichelleTownsendDayModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('drMichelleTownsendDayModal')">&times;</span>
+        <img src=".\assets\Headshots\dr_michelle_townsend_day.jpg" alt="Dr. Michelle Townsend Day" />
+        <p>Dr. Day earned her medical degree from Louisiana State University Health Sciences Center – New Orleans, La in 2001. Dr. Day completed her diagnostic radiology residency training program at Bridgeport Hospital in 2006. Upon completion of residency training, Dr. Day became a fellow at the Memorial Sloan Kettering Cancer Center in New York specializing in breast and body imaging finishing in 2008.</p>
+        <p>Following fellowship, Dr. Day joined the faculty at the University of Connecticut School of Medicine where she was awarded the rank of assistant professor and became the director of breast imaging from 2008-2011. From 2011- 2016, Dr. Day practiced at the University of Maryland where she was a member of the faculty of the University of Maryland School of Medicine at the rank of clinical assistant professor.</p>
+        <p>Dr. Day joined MedStar Medical Group Radiology July 1, 2016, as section chief of breast imaging for the MedStar Union Memorial and MedStar Good Samaritan Hospitals. Dr. Day then became chairman of both MedStar Good Samarian and Medstar Union Memorial Hospitals.</p>
+    </div>
+</div>
+<div id="drPadmaRajagopalModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('drPadmaRajagopalModal')">&times;</span>
+        <img src=".\assets\Headshots\dr_padma_rajagopal.jpg" alt="Dr. Padma (Sheila) Rajagopal" />
+        <p>Dr. Padma (Sheila) Rajagopal<br>Physician-Scientist Early Investigator<br>Cancer Data Science Laboratory and Women’s Malignancies Branch<br>National Cancer Institute<br><br>Dr. Padma (Sheila) Rajagopal received her M.D. at Columbia University’s College of Physicians and Surgeons, during which she also received an M.P.H. in quantitative methods with a focus on genetic epidemiology at the Harvard School of Public Health. She completed her internal medicine residency at the University of Pittsburgh and a fellowship in hematology/oncology and additional fellowship year focused on cancer genetics at the University of Chicago, where she received an M.Sc. in biomedical informatics.<br><br>She has been a physician-scientist early investigator at the National Cancer Institute since 2021. Her clinical practice focuses on patients with both metastatic breast cancers (primarily triple-negative breast cancer), as well as hereditary cancer syndromes. Her laboratory investigates how genetic data (both what we are born with and from the tumor in patients affected by cancer) can be used to improve understanding of patient outcomes and predicted response to treatment.</p>
+    </div>
+</div>
+<div id="hayleyBrownModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('hayleyBrownModal')">&times;</span>
+        <img src=".\assets\Headshots\hayley_brown.jpg" alt="Hayley Brown" />
+        <p>Hayley Brown<br>Director of Partnerships and Programs<br>TOUCH, The Black Breast Cancer Alliance<br><br>hayley@touchbbca.org<br><br>Hayley Brown serves as the Director of Programs and Partnerships for TOUCH, The Black Breast Cancer Alliance. TOUCH is a non-profit organization focusing on eradicating Black Breast Cancer.<br><br>Hayley’s goal is to bring the TOUCH programming to where all black women live, work, play, pray, and slay through local community outreach and national events. She is currently focused on reaching young black women and defining Black Breast Health. In combination with her teaching background and her passion for supporting breasties at all parts of their journey, Hayley plans to continue to educate, empower, and equip this amazing community to be the CEO’s of their own health.</p>
+    </div>
+</div>
+<div id="kemithCalvinModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('kemithCalvinModal')">&times;</span>
+        <img src=".\assets\Headshots\kemith_calvin.jpg" alt="Kemith Calvin" />
+        <p>Kemith "KC" Calvin<br>High School Administrator,<br>Prince George's County School System<br><br>Kemith "KC" Calvin was born in Arkansas City, Ark. He graduated from University of Arkansas at Pine Bluff with BS Degree in Business Administration having earned a 3-year ROTC scholarship.<br><br>KC graduated from the United States Army Officers Military Intelligence Academy in Fort Huachuaca, Arizona and subsequently served 4 years in U.S. Army in Fort Hood, Texas and West Germany. KC worked as a configuration and logistics engineer at Westinghouse, a defense contractor in Annapolis, MD before lending his expertise as an education.<br><br>His extensive career in education and administration began by teaching elementary school for three years in Baltimore, MD before transitioning to become an elementary school Guidance Counselor in the Prince George’s County School System.  His advancing career led him serve in leadership as a Middle School Assistant Principal and Principal as well as a High School Administrator for 15 years.<br><br>KC earned a Masters in Guidance Counseling from Bowie St University.<br><br>He joined Omega Psi Phi Fraternity, Inc.,  in college. He has held many positions within the Fraternity and is currently assigned by the Grand Basileus to serve as international Retention Chairman.</p>
+    </div>
+</div>
+<div id="lauraCrandonModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('lauraCrandonModal')">&times;</span>
+        <img src=".\assets\Headshots\laura_crandon.jpg" alt="Laura Crandon" />
+        <p>Laura Crandon, MBA, CA-AP<br>Founder, Touch4Life<br>www.linkedin.com/in/laura-crandon<br><br>Laura Crandon is a strategist and innovator. A former healthcare and technology executive for over 25 years, leading billion-dollar portfolios, Laura founded Touch4Life, a 501(c)(3) nonprofit organization whose mission is to increase the breast health IQ of BIPOC and underserved communities and eliminate breast cancer outcomes disparities. Out of her own journey with metastatic breast cancer, Laura turned pain into purpose. She recognized the lack of health equity in breast cancer detection, treatment and survivorship that exists for Black and Brown women in the United States. Laura counsels, teaches, and inspires women who have been diagnosed with breast cancer and works with physicians and nurses to provide culturally relevant educational materials. She advocates for health equity and inclusion in clinical research, biomarkers and genetic testing, and patient empowerment.<br><br>She has been an entrepreneur, venture capitalist and served as a board member on Duke University’s Healthcare Alumni Advisory Board, Johnson C. Smith Theological Seminary, and Pearl Foundation.<br><br>The daughter of two path-breaking civil rights sojourners, Laura earned and a BS in Computer Science from University of Maryland College Park and an MBA from Duke University Fuqua School of Business.<br><br>She holds certifications as a National Breast Cancer Foundation Ambassador, American Cancer Society Health Equity Ambassador Link, Association of Strategic Alliance Professionals, and Alpha Kappa Alpha Sorority, Incorporated® Financial Officer.<br><br>Maryland Governor Wes Moore appointed Laura to serve on the Maryland Health Benefit Exchange Board. She also serves on the Board of Governors for the University of Maryland Alumni Association. Laura is co-author of research published in The Lancet Oncology and is a sought after speaker at academic and medical conferences including ASCO (American Society of Clinical Oncology), NSGC (National Society of Genetic Counselors), SABCS (San Antonio Breast Cancer Symposium), State of Black Health, and NIH.<br><br>Laura is the author of a U.S. Patent and a two-time award-winner of the UnitedHealth Group Innovation award for Community Services Connect™, a digital social determinants of health platform to connect the community with local supportive services and PharmacySaver™ which provides Medicare enrollees savings on hundreds of prescription medications. Her superpowers are networking and connecting people with resources. The ultimate competitor, she enjoys marriage ministry with her husband, spending time with her three adult children and playing Monopoly.</p>
+    </div>
+</div>
+<div id="monieshaJacksonShorterModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('monieshaJacksonShorterModal')">&times;</span>
+        <img src=".\assets\Headshots\moniesha_jackson_shorter.jpg" alt="Moniesha Jackson Shorter" />
+        <p>Moniesha Jackson Shorter<br>Board Member, Touch4Life<br><br>linkedin.com/in/moniesha-shorter-2a8b82<br><br>As a longtime DEI advocate, Moniesha Jackson Shorter has devoted much of her career to amplifying diverse voices and eliminating barriers that prevent full participation of minority professionals.<br><br>During her 13.5 year tenure at Accenture, she served as the Diversity Recruiting lead for the University of Maryland and developed programming for the Skills to Succeed initiative, the focus of Accenture’s Corporate Citizenship efforts, aimed to equip at least 250,000 people around the world with the skills required to get jobs, build businesses and improve their communities. I also served on the University of Maryland Women in Engineering Board in this capacity, focused on the recruitment and retention of female engineering students.<br><br>Later at Amazon, she was selected to lead the local chapter for Kaleidoscope, a DEI initiative in Amazon Device Software and Services focused on hiring and development, culture, and community, and also served as Director, Marketing and Communications, for the Amazon Black Employee Network (BEN) Board.<br>It’s Moniesha’s passion to see minorities achieve and Black women thrive that led her to establish the Moniesha Jackson Shorter Endowed Scholarship for the Center for Minorities in Science and Engineering and the Moniesha Jackson Shorter Endowed Scholarship for Alpha Kappa Alpha Sorority, Inc.® through the University of Maryland College Park Foundation, Inc.<br><br>Moniesha brings a solid track record for executing successful branding campaigns, promoting product launches, as well as increasing customer engagement using interactive technology. She is skilled at interacting with engineering, development, marketing and sales teams from proof of concept to service introduction, including market and technology research, as well as competitive analysis to drive product promotion and technology enablement strategies. She also has extensive experience leading large scale business transformations and working with leadership teams to uncover insights about their internal business environment, capacity to change, and the capabilities required to realize the intended business strategy.<br><br>Realizing her talent for promoting brands that lead to increased market presence, brand awareness and expansion, she launched a startup called Cornerstone Creative Group, LLC. Cornerstone Creative Group specializes in providing engaging digital experiences through design, content management, brand strategy, marketing and technology innovation. Moniesha brings a solid track record for executing successful branding campaigns, promoting product launches, as well as increasing customer engagement using interactive technology.</p>
+    </div>
+</div>
+<div id="rickiFairleyModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('rickiFairleyModal')">&times;</span>
+        <img src=".\assets\Headshots\ricki_fairley.jpg" alt="Ricki Fairley" />
+        <p>Ricki Fairley<br>Co-Founder and CEO, TOUCH,<br>The Black Breast Cancer Alliance<br><br>Ricki Fairley is the co-founder and CEO of TOUCH, The Black Breast Cancer Alliance addressing Black Breast Cancer as a unique and special disease state, with the overall goal of reducing the mortality rate for Black women.<br><br>Ricki founded and serves as co-host for “The Doctor Is In,” a weekly live breast cancer advocacy web series on the BlackDoctor.org Facebook page that reaches over 3 million viewers.<br><br>She is a founding member of #BlackDataMatters, in partnership with Ciitizen, The Center for Health Care Innovation and Morehouse School of Medicine to encourage and elevate the importance of Black Women participating in clinical trial research.<br><br>In January 2022, she started the When We Tri(al) Movement to change the game on Black women participating in clinical trials to improve outcomes for Black women with breast cancer with culturally humble and provocative communication that has resulted in thousands of Black women entering clinical trial research. She also actively assists pharmaceutical companies in revamping and designing their clinical trial recruiting materials.<br><br>Ricki holds a BA from Dartmouth College and an MBA from Kellogg School of Management at Northwestern University. She is the President Emeritus of the Black Alumni of Dartmouth Association and is Board Chair Emeritus of Kenny Leon’s True Colors Theatre Company.<br><br>Ricki has two daughters and three granddaughters that are her pride and joy. Amanda Brown, Dartmouth Class of 2007, and Hayley Brown, Dartmouth Class of 2014. Belle, Leia, and Hart motivate her to live her purpose to eradicate breast cancer every day.</p>
+    </div>
+</div>
+<div id="rozmynKMillerModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('rozmynKMillerModal')">&times;</span>
+        <img src=".\assets\Headshots\rozmyn_k_miller.jpg" alt="Rozmyn K. Miller" />
+        <p>Rozmyn K. Miller<br><br>Rozmyn K. Miller is a conflict management consultant, trainer and coach who specializes in combining conflict resolution techniques with mindfulness practices. With over 15 years in the field, Rozmyn has cultivated a unique perspective to help others foster harmony and understanding in even the most contentious environments.<br><br>As a practitioner, Rozmyn’s approach is rooted in the belief that true resolution can only be achieved when individuals are attuned to their own emotions and intentions. Whether mediating workplace disputes, facilitating team dialogues, or coaching individuals in conflict resolution, Rozmyn empowers her clients to cultivate mindfulness as a tool for navigating challenging interactions with clarity and equanimity.<br><br>Driven by her vision of a world where conflicts are opportunities for growth and connection, Rozmyn continues to push the boundaries of traditional conflict management, weaving mindfulness into the fabric of her professional endeavors and leaving a lasting impact on those she serves.<br><br>Rozmyn also has a Master of Science in Negotiation and Conflict Management from University of Baltimore and a Bachelor of Arts in Political Science from Hampton University.</p>
+    </div>
+</div>
+<div id="sharonHawksModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('sharonHawksModal')">&times;</span>
+        <img src=".\assets\Headshots\sharon_hawks.jpg" alt="Sharon Hawks" />
+        <p>Sharon Hawks, MS, RDN, LDN, CDCES<br>Registered Dietitian-Nutritionist<br>Certified Diabetes Care and Education Specialist<br><br>Mrs. Hawks is the owner and director of the Nutrition and Diabetes Education Center, in Glenn Dale, Maryland. She is a registered dietitian/nutritionist, and one of the 19,000 elite Certified Diabetes Care and Education Specialist in the U.S. Mrs. Hawks received her bachelor’s degree from Michigan State University and her master’s from Central Michigan University in the field of dietetics. She has obtained additional certifications in the areas of physical fitness and health coaching. Mrs. Hawks has over 25 years’ experience and has been listed in the national directory, “Who’s Who in Diabetes Treatment, Education & Research.” As a nutritionist, educator, and motivator, she is a popular and highly sought-after speaker and consultant, both locally and nationally. Health professionals, businesses, churches, and the public are enthusiastic about her engaging, energetic, clear and practical delivery of diabetes, nutrition and health related topics. She has appeared on numerous TV, radio, and podcast presentations over the years.  Mrs. Hawks is proud to have served our country and is a retired Air Force Major. On a national level, she serves on the board of the prestigious Black Women’s Health Imperative, one of the oldest organizations whose primary focus is on the health and wellness of black women and girls throughout the nation. On a personal level, Mrs. Hawks lends her expertise as the Health Commissioner at Reid Temple, one of the largest African Methodist Episcopal congregations in the nation.  Mrs. Hawks believes in practicing what she preaches. She takes pride in keeping her mind, body, and spirit in balance. Her Motto is: “Your health is your greatest wealth and without it, everything you cherish can be compromised!” Her mission is to give others the tools they need to invest in this precious commodity we call health.</p>
+    </div>
+</div>
+<div id="tiahTomlinHarrisModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('tiahTomlinHarrisModal')">&times;</span>
+        <img src=".\assets\Headshots\tiah_tomlin_harris.jpg" alt="Tiah Tomlin-Harris" />
+        <p>Tiah Tomlin-Harris<br>CEO and Founder, My Style Matters<br><br>Following a diagnosis of an aggressive form of breast cancer, or Can’t-cer as she calls it, Tiah Tomlin-Harris vowed to God that if she made it through breast cancer, she would help as many women as she could fight and survive breast cancer, particularly Black women, who are disproportionately impacted by this disease.<br><br>Tiah believed that no sister should walk this journey alone and founded the My Breast Years Ahead Sisterhood, a sisterhood of women survivors. She also founded My Style Matters, Inc., a 501c3 non-profit organization that focuses on improving health outcomes and overall well-being by providing support, resources, education as well as healthy lifestyle experiences to cancer survivors and their loved ones.<br><br>In 2019, upon obtaining news of a recurrence, Tiah opted to fight cancer a second time with food and faith. She adopted a whole food plant-based diet, removed products containing toxins or other dangerous chemicals from her home, and added other complementary practices to her daily routine. Tiah believes that making healthy lifestyle changes can help improve one’s quality of life and help with better life outcomes. She is now helping others on their quest for optimal health as a licensed Food for Life Instructor and is educating individuals on ways to eliminate harmful exposures.<br><br>Tiah is an activist, an advocate, a Cancer Coach, a Breast Health Educator, a consultant, and a Project Lead graduate of the National Breast Cancer Coalition (NBCC). She developed Breast Health Matters, an empowerment and educational platform for teen girls and women, and serves as the Program Manager for the Knowledge Is Power symposium focusing on Black women diagnosed with breast cancer. Tiah has advocated for survivors on Capitol Hill; is a Community Advisory Board member with the Bench to Community Initiative and the Non-toxic Black Beauty Project; serves as a board member and advisory board member for several pharmaceutical companies and organizations; published a research paper on Clinical Trials in Metastatic Breast Cancer; has spoken on numerous talk shows and panels to include Tavis Smiley talk radio, American Society for Clinical Oncology (ASCO), American Association for Cancer Research (AACR) and the Congressional Briefing with Breast Cancer Prevention Partners (BCPP). Through her life's work, she has received recognition and awards, including President Bush’s – Point of Lights Award and the Georgia Center for Oncology Research and Education (GA CORE) Phillip Street Community Service Award.<br><br>Tiah is bringing H.O.P.E. to our community by educating, motivating, and activating people to move from awareness to taking action.</p>
+    </div>
+</div>
+</body>
+</html>
+
